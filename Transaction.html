@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wallet Transaction Management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="transaction.css"/>
+    </head>
+    <body>
+        <div class="wallet-transaction-Management">
+        <h1>Wallet Transaction Management</h1> 
+        <div id="transaction-history"></div>
+        <div id="filter-form">
+            <label for="date-filter">Date:</label>
+            <input type="date" id="date-filter" name="date-filter"><br><br><!-- comment -->
+            
+            <label for="amount-filter">Amount</label>
+            <input type="amount-filer" id="amount-filter" name="amount-filter"><br><br>
+            
+            <label for="type-filter">Type:</label>
+            <select id="type-filter" name="type-filter">
+                <option value="all">All</option>
+                <option value="deposit">Deposit</option>
+                <option value="withdrawal">Withdrawal</option>
+                <option value="transfer">Transfer</option>
+            </select><br><br>
+            <button id="filter-button">Filter</button><br><br>
+        </div>
+        <div id="export-form">
+            <button id="export-csv-button">Export to CVS</button><!-- comment -->
+            <button id="export-excel-button">Export to Excel</button>
+        </div>
+        </div>
+        <<script src="transaction.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Wallet Funding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="funding.css"/>
+    </head>
+    <body>
+        <h1>Wallet Funding</h1>
+        <form id="funding-form">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount"><br><br><!-- comment -->
+            
+            <label for="payment-method">Payment method:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Credit Card</option>
+                <option value="bank-transfer">Bank Transfer</option>
+                <option value="paypal">PayPal</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select><br><br>
+            <button id="fund-button">Fund Wallet</button>
+        </form>
+        <div id="results"></div>
+        <div id="funding-history"></div>
+        <script src="funding.js"></script>
+    </body>
+</html>

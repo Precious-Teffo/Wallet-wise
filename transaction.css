@@ -1,0 +1,74 @@
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#f9f9f9;
+}
+.wallet-transaction-Management{
+     max-width:500px;
+      margin:40px;
+      padding:20px;
+      background-color:#fff;
+      border:1px solid #ddd;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+      border-radius:10px;
+}
+
+.wallet-transaction-Management h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+#transaction-history{
+    margin-top:20px;
+}
+#filter-form{
+    margin-top:20px;
+}
+#filter-form label{
+    display:block;
+    margin-bottom:10px;
+    font-weight:bold;
+    color:#666;
+}
+#filter-form input,
+#filter-form select{
+     width:90%;
+    height:40px;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+#filter-button{
+    width:100px;
+    height:40px;
+    background-color: blue;
+    color:#fff;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#filter-button:hover{
+     background-color: grey;
+}
+#export-form{
+    margin-top:20px;
+}
+#export-csv-button,
+#export-excel-button{
+     width:100px;
+    height:40px;
+    background-color: grey;
+    color:#fff;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+#export-csv-button:hover,
+#export-excel-button:hover{
+    background-color: blue;
+}
